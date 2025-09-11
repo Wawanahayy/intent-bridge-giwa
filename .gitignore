@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 # builds & deps
+=======
+>>>>>>> ae01206 (init: intent bridge demo (env example + ignore))
 node_modules
 .next
 out
 .vercel
+<<<<<<< HEAD
 coverage
 *.log
 npm-debug.log*
@@ -15,5 +19,15 @@ yarn-error.log*
 .env.vercel
 .env.local
 .env
+.env.local
+.env
+=======
+.env.local
+.env
+pnpm-lock.yaml
+.DS_Store
+>>>>>>> ae01206 (init: intent bridge demo (env example + ignore))
+
+.env.vercel
 .env.local
 .env
