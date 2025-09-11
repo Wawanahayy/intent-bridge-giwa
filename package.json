@@ -1,0 +1,27 @@
+{
+  "name": "giwa-intent-vercel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "viem": "2.37.5",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.7",
+    "typescript": "5.4.5"
+  },
+  "engines": { "node": ">=18" }
+}
