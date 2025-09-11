@@ -1,18 +1,18 @@
+# builds & deps
 node_modules
 .next
 out
 .vercel
-.env.local
-.env
-pnpm-lock.yaml
+coverage
+
+# logs & OS junk
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 .DS_Store
 
-.env.local
-.env
-node_modules
-.next
-.vercel
-
-.env.vercel
-.env.local
-.env
+# env files (jangan dipush)
+.env*
+!.env.example   # tetapi contoh env tetap dipush
