@@ -4,15 +4,14 @@ node_modules
 out
 .vercel
 coverage
-
-# logs & OS junk
 *.log
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .DS_Store
-
-# env files (jangan dipush)
 .env*
-!.env.example   # tetapi contoh env tetap dipush
+!.env.example
+.env.vercel
+.env.local
+.env
