@@ -1,47 +1,30 @@
-<<<<<<< HEAD
-# builds & deps
-=======
->>>>>>> ae01206 (init: intent bridge demo (env example + ignore))
-node_modules
-.next
-out
-.vercel
-<<<<<<< HEAD
-coverage
+# ========= Builds & caches =========
+.next/
+out/
+.vercel/
+coverage/
+
+# ========= Dependencies =========
+node_modules/
+
+# ========= Logs =========
 *.log
 npm-debug.log*
 pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
 .DS_Store
-.env*
+
+
+.env
+.env.*
 !.env.example
-.env.vercel
-.env.local
-.env
-.env.local
-.env
-=======
-.env.local
-.env
-pnpm-lock.yaml
-.DS_Store
->>>>>>> ae01206 (init: intent bridge demo (env example + ignore))
 
-.env.vercel
-.env.local
-.env
-node_modules/
-.next/
-.env
-.env.local
+# ========= Hardhat artifacts (generated) =========
 deploy/artifacts/
 deploy/cache/
 
-node_modules/
-.next/
-.env
-.env.local
-deploy/artifacts/
-deploy/cache/
 
+.giwa-intent-vercel/deploy/node_modules/
