@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["node", "hardhat", "@nomicfoundation/hardhat-ethers"],
+    "outDir": "dist"
+  },
+  "include": ["hardhat.config.ts", "scripts", "contracts"]
+}
