@@ -38,3 +38,10 @@ node_modules/
 deploy/artifacts/
 deploy/cache/
 
+node_modules/
+.next/
+.env
+.env.local
+deploy/artifacts/
+deploy/cache/
+
