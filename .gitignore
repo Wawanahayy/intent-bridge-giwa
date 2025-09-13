@@ -31,3 +31,10 @@ pnpm-lock.yaml
 .env.vercel
 .env.local
 .env
+node_modules/
+.next/
+.env
+.env.local
+deploy/artifacts/
+deploy/cache/
+
